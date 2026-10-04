@@ -9,7 +9,7 @@
    "window": "extra",
    "plan": "Max (20x)",
    "usedPercent": 0,
-   "observedAt": "2026-10-04T13:06:05.88Z",
+   "observedAt": "2026-10-04T13:37:22.06Z",
    "status": "disabled"
   },
   {
@@ -18,9 +18,9 @@
    "acct": "a_1ff721c8a5099060",
    "window": "session",
    "plan": "Max (20x)",
-   "usedPercent": 7,
-   "resetsAt": "2026-10-04T15:59:59.697511Z",
-   "observedAt": "2026-10-04T13:06:05.88Z",
+   "usedPercent": 10,
+   "resetsAt": "2026-10-04T15:59:59.882059Z",
+   "observedAt": "2026-10-04T13:37:22.06Z",
    "status": "ok"
   },
   {
@@ -29,9 +29,9 @@
    "acct": "a_1ff721c8a5099060",
    "window": "week",
    "plan": "Max (20x)",
-   "usedPercent": 75,
-   "resetsAt": "2026-10-06T14:59:59.697531Z",
-   "observedAt": "2026-10-04T13:06:05.88Z",
+   "usedPercent": 76,
+   "resetsAt": "2026-10-06T14:59:59.882081Z",
+   "observedAt": "2026-10-04T13:37:22.06Z",
    "status": "ok"
   },
   {
@@ -42,8 +42,8 @@
    "scope": "Fable",
    "plan": "Max (20x)",
    "usedPercent": 61,
-   "resetsAt": "2026-10-06T14:59:59.69771Z",
-   "observedAt": "2026-10-04T13:06:05.88Z",
+   "resetsAt": "2026-10-06T14:59:59.882263Z",
+   "observedAt": "2026-10-04T13:37:22.06Z",
    "status": "ok"
   },
   {
@@ -51,14 +51,14 @@
    "source": "cursor",
    "acct": "a_abda02830b40491d",
    "window": "plan",
-   "observedAt": "2026-10-04T13:10:07Z"
+   "observedAt": "2026-10-04T13:40:32Z"
   },
   {
    "provider": "google",
    "source": "gemini-cli",
    "acct": "a_8ee5160a7070998a",
    "window": "plan",
-   "observedAt": "2026-10-04T13:10:07Z"
+   "observedAt": "2026-10-04T13:40:32Z"
   },
   {
    "provider": "openai",
@@ -68,7 +68,7 @@
    "plan": "Pro",
    "usedPercent": 25,
    "resetsAt": "2026-10-10T00:03:22Z",
-   "observedAt": "2026-10-04T13:06:04.654301Z",
+   "observedAt": "2026-10-04T13:37:20.8249836Z",
    "status": "ok"
   },
   {
@@ -79,7 +79,7 @@
    "plan": "SuperGrok Heavy",
    "usedPercent": 0,
    "resetsAt": "2026-10-08T05:59:59.126253Z",
-   "observedAt": "2026-10-04T13:06:05.42Z",
+   "observedAt": "2026-10-04T13:37:21.596Z",
    "status": "ok"
   },
   {
@@ -88,7 +88,7 @@
    "acct": "a_9ca3779ad5b07e11",
    "window": "plan",
    "plan": "SuperGrok Heavy",
-   "observedAt": "2026-10-04T12:21:28.5086587Z"
+   "observedAt": "2026-10-04T13:21:32.980922Z"
   }
  ]
 }

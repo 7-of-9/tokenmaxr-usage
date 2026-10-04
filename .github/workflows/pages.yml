@@ -29,20 +29,28 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      # A new repository has no data (and maybe no Pages yet): nothing to deploy.
+      - id: data
+        run: if [ -d data/machines ]; then echo "has=1" >> "$GITHUB_OUTPUT"; fi
+      - if: steps.data.outputs.has == '1'
+        uses: actions/setup-node@v4
         with:
           node-version: 22
       - name: Assemble the site
+        if: steps.data.outputs.has == '1'
         run: |
           node scripts/build-index.mjs
           mkdir -p _site
           cp -r site/. _site/
           cp -r data _site/data
           cp tokenmaxr.json _site/
-      - uses: actions/configure-pages@v5
-      - uses: actions/upload-pages-artifact@v3
+      - if: steps.data.outputs.has == '1'
+        uses: actions/configure-pages@v5
+      - if: steps.data.outputs.has == '1'
+        uses: actions/upload-pages-artifact@v3
         with:
           path: _site
           retention-days: 1
       - id: deployment
+        if: steps.data.outputs.has == '1'
         uses: actions/deploy-pages@v4

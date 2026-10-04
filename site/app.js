@@ -6,6 +6,7 @@
 
 const COLS = ["date", "provider", "source", "model", "acct", "in", "cacheW", "cacheR", "out", "events", "prompts"];
 const STALE_MS = 6 * 3600 * 1000;
+const MAX_AGE_MS = 7 * 86400 * 1000; // older meters say nothing about now
 const $ = (id) => document.getElementById(id);
 
 const fmt = new Intl.NumberFormat(undefined, { notation: "compact", maximumFractionDigits: 1 });
@@ -143,10 +144,12 @@ function renderHeatmap(rows, now) {
 }
 
 function renderQuota(all, now) {
-  const meters = latestMeters(all);
+  const meters = latestMeters(all.filter((m) => now - Date.parse(m.observedAt) <= MAX_AGE_MS));
   $("quota-card").hidden = meters.length === 0;
   $("quota").innerHTML = meters.map((m) => {
-    const pct = m.usedPercent;
+    // Reset since it was read: what is used now is unknown.
+    const reset = Date.parse(m.resetsAt) <= now;
+    const pct = reset ? null : m.usedPercent;
     const color = pct == null ? "var(--muted)" : pct >= 90 ? "var(--bad)" : pct >= 70 ? "var(--warn)" : "var(--good)";
     const stale = now - Date.parse(m.observedAt) > STALE_MS;
     const name = [m.source || m.provider, m.window, m.scope].filter(Boolean).join(" · ");
@@ -154,7 +157,7 @@ function renderQuota(all, now) {
       <div class="who"><b>${esc(name)}</b>${m.plan ? `<span class="pill">${esc(m.plan)}</span>` : ""}${m.acct ? `<span class="pill" title="Account hash">${esc(m.acct.slice(0, 8))}</span>` : ""}</div>
       <div><span class="pct">${pct == null ? "–" : Math.round(pct) + "%"}</span>
         <div class="gauge"><span style="width:${Math.min(100, Math.max(0, pct || 0))}%;background:${color}"></span></div></div>
-      <div class="reset">${esc(until(m.resetsAt, now))}<br><span class="${stale ? "stale" : "muted"}">read ${esc(ago(m.observedAt, now))}</span></div>
+      <div class="reset">${reset ? "reset since read" : esc(until(m.resetsAt, now))}<br><span class="${stale ? "stale" : "muted"}">read ${esc(ago(m.observedAt, now))}</span></div>
     </div>`;
   }).join("");
 }

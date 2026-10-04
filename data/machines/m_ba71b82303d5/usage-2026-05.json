@@ -1,5 +1,5 @@
 {
- "schema": 1,
+ "schema": 2,
  "machine": "m_ba71b82303d5",
  "month": "2026-05",
  "cols": [
@@ -8,12 +8,17 @@
   "source",
   "model",
   "acct",
+  "q",
   "in",
   "cacheW",
+  "cacheW1h",
   "cacheR",
   "out",
+  "reasoning",
   "events",
-  "prompts"
+  "prompts",
+  "promptsNoUsage",
+  "modelPrompts"
  ],
  "rows": [
   [
@@ -22,11 +27,16 @@
    "claude-code",
    "",
    "a_1ff721c8a5099060",
+   "",
    0,
    0,
    0,
    0,
    0,
+   0,
+   0,
+   12,
+   12,
    12
   ]
  ]

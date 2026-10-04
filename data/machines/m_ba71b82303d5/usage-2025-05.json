@@ -1,5 +1,5 @@
 {
- "schema": 1,
+ "schema": 2,
  "machine": "m_ba71b82303d5",
  "month": "2025-05",
  "cols": [
@@ -8,12 +8,17 @@
   "source",
   "model",
   "acct",
+  "q",
   "in",
   "cacheW",
+  "cacheW1h",
   "cacheR",
   "out",
+  "reasoning",
   "events",
-  "prompts"
+  "prompts",
+  "promptsNoUsage",
+  "modelPrompts"
  ],
  "rows": [
   [
@@ -22,11 +27,16 @@
    "cursor",
    "",
    "a_972ee473b5f858f1",
+   "",
    0,
    0,
    0,
    0,
    0,
+   0,
+   0,
+   16,
+   16,
    16
   ],
   [
@@ -35,11 +45,16 @@
    "cursor",
    "",
    "a_972ee473b5f858f1",
+   "",
    0,
    0,
    0,
    0,
    0,
+   0,
+   0,
+   34,
+   34,
    34
   ],
   [
@@ -48,11 +63,16 @@
    "cursor",
    "",
    "a_972ee473b5f858f1",
+   "",
    0,
    0,
    0,
    0,
    0,
+   0,
+   0,
+   2,
+   2,
    2
   ],
   [
@@ -61,11 +81,16 @@
    "cursor",
    "",
    "a_972ee473b5f858f1",
+   "",
    0,
    0,
    0,
    0,
    0,
+   0,
+   0,
+   1,
+   1,
    1
   ]
  ]

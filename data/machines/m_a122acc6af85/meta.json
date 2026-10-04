@@ -1,8 +1,8 @@
 {
  "schema": 1,
  "id": "m_a122acc6af85",
- "label": "e2e-box",
+ "label": "e2e-desk",
  "os": "windows",
  "collector": "0.3.0-e2e",
- "updatedAt": "2026-10-04T11:19:59Z"
+ "updatedAt": "2026-10-04T11:20:23Z"
 }

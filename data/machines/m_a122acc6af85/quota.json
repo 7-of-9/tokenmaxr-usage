@@ -51,14 +51,14 @@
    "source": "cursor",
    "acct": "a_abda02830b40491d",
    "window": "plan",
-   "observedAt": "2026-10-04T11:19:59Z"
+   "observedAt": "2026-10-04T11:20:23Z"
   },
   {
    "provider": "google",
    "source": "gemini-cli",
    "acct": "a_8ee5160a7070998a",
    "window": "plan",
-   "observedAt": "2026-10-04T11:19:59Z"
+   "observedAt": "2026-10-04T11:20:23Z"
   },
   {
    "provider": "openai",

@@ -9,7 +9,7 @@
    "window": "extra",
    "plan": "Max (20x)",
    "usedPercent": 0,
-   "observedAt": "2026-10-04T10:22:56.255Z",
+   "observedAt": "2026-10-04T11:18:57.223Z",
    "status": "disabled"
   },
   {
@@ -18,9 +18,9 @@
    "acct": "a_1ff721c8a5099060",
    "window": "session",
    "plan": "Max (20x)",
-   "usedPercent": 11,
-   "resetsAt": "2026-10-04T11:00:00.067049Z",
-   "observedAt": "2026-10-04T10:22:56.255Z",
+   "usedPercent": 1,
+   "resetsAt": "2026-10-04T15:59:59.981288Z",
+   "observedAt": "2026-10-04T11:18:57.223Z",
    "status": "ok"
   },
   {
@@ -29,9 +29,9 @@
    "acct": "a_1ff721c8a5099060",
    "window": "week",
    "plan": "Max (20x)",
-   "usedPercent": 73,
-   "resetsAt": "2026-10-06T15:00:00.067069Z",
-   "observedAt": "2026-10-04T10:22:56.255Z",
+   "usedPercent": 74,
+   "resetsAt": "2026-10-06T14:59:59.981307Z",
+   "observedAt": "2026-10-04T11:18:57.223Z",
    "status": "ok"
   },
   {
@@ -42,8 +42,8 @@
    "scope": "Fable",
    "plan": "Max (20x)",
    "usedPercent": 61,
-   "resetsAt": "2026-10-06T15:00:00.067248Z",
-   "observedAt": "2026-10-04T10:22:56.255Z",
+   "resetsAt": "2026-10-06T14:59:59.981462Z",
+   "observedAt": "2026-10-04T11:18:57.223Z",
    "status": "ok"
   },
   {
@@ -51,37 +51,14 @@
    "source": "cursor",
    "acct": "a_abda02830b40491d",
    "window": "plan",
-   "observedAt": "2026-10-04T11:14:57Z"
+   "observedAt": "2026-10-04T11:19:59Z"
   },
   {
    "provider": "google",
    "source": "gemini-cli",
    "acct": "a_8ee5160a7070998a",
    "window": "plan",
-   "observedAt": "2026-10-04T11:14:57Z"
-  },
-  {
-   "provider": "openai",
-   "source": "codex",
-   "acct": "a_e6a9ea7f544a95da",
-   "window": "session",
-   "plan": "Pro",
-   "usedPercent": 0,
-   "resetsAt": "2026-04-19T05:03:22Z",
-   "observedAt": "2026-04-19T00:05:23.035Z",
-   "status": "ok"
-  },
-  {
-   "provider": "openai",
-   "source": "codex",
-   "acct": "a_e6a9ea7f544a95da",
-   "window": "session",
-   "scope": "GPT-5.3-Codex-Spark",
-   "plan": "Pro",
-   "usedPercent": 0,
-   "resetsAt": "2026-04-18T17:47:47Z",
-   "observedAt": "2026-04-18T12:48:41.944Z",
-   "status": "ok"
+   "observedAt": "2026-10-04T11:19:59Z"
   },
   {
    "provider": "openai",
@@ -91,19 +68,7 @@
    "plan": "Pro",
    "usedPercent": 25,
    "resetsAt": "2026-10-10T00:03:22Z",
-   "observedAt": "2026-10-03T10:07:49.641Z",
-   "status": "ok"
-  },
-  {
-   "provider": "openai",
-   "source": "codex",
-   "acct": "a_e6a9ea7f544a95da",
-   "window": "week",
-   "scope": "GPT-5.3-Codex-Spark",
-   "plan": "Pro",
-   "usedPercent": 0,
-   "resetsAt": "2026-04-25T12:47:47Z",
-   "observedAt": "2026-04-18T12:48:41.944Z",
+   "observedAt": "2026-10-04T11:18:55.8949249Z",
    "status": "ok"
   },
   {
@@ -114,7 +79,7 @@
    "plan": "SuperGrok Heavy",
    "usedPercent": 0,
    "resetsAt": "2026-10-08T05:59:59.126253Z",
-   "observedAt": "2026-10-04T06:32:33.613Z",
+   "observedAt": "2026-10-04T11:18:57.009Z",
    "status": "ok"
   },
   {
@@ -123,7 +88,7 @@
    "acct": "a_9ca3779ad5b07e11",
    "window": "plan",
    "plan": "SuperGrok Heavy",
-   "observedAt": "2026-10-04T06:26:20.7363036Z"
+   "observedAt": "2026-10-04T11:18:55.9669894Z"
   }
  ]
 }

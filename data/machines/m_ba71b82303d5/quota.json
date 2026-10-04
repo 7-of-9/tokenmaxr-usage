@@ -9,7 +9,7 @@
    "window": "extra",
    "plan": "Max (20x)",
    "usedPercent": 0,
-   "observedAt": "2026-10-04T17:15:12.317Z",
+   "observedAt": "2026-10-04T17:46:04.061Z",
    "status": "disabled"
   },
   {
@@ -19,7 +19,7 @@
    "window": "session",
    "plan": "Max (20x)",
    "usedPercent": 0,
-   "observedAt": "2026-10-04T17:15:12.317Z",
+   "observedAt": "2026-10-04T17:46:04.061Z",
    "status": "ok"
   },
   {
@@ -29,8 +29,8 @@
    "window": "week",
    "plan": "Max (20x)",
    "usedPercent": 77,
-   "resetsAt": "2026-10-06T15:00:00.12766Z",
-   "observedAt": "2026-10-04T17:15:12.317Z",
+   "resetsAt": "2026-10-06T14:59:59.83949Z",
+   "observedAt": "2026-10-04T17:46:04.061Z",
    "status": "ok"
   },
   {
@@ -41,8 +41,8 @@
    "scope": "Fable",
    "plan": "Max (20x)",
    "usedPercent": 61,
-   "resetsAt": "2026-10-06T15:00:00.127896Z",
-   "observedAt": "2026-10-04T17:15:12.317Z",
+   "resetsAt": "2026-10-06T14:59:59.839703Z",
+   "observedAt": "2026-10-04T17:46:04.061Z",
    "status": "ok"
   },
   {
@@ -50,14 +50,14 @@
    "source": "cursor",
    "acct": "a_abda02830b40491d",
    "window": "plan",
-   "observedAt": "2026-10-04T17:15:16Z"
+   "observedAt": "2026-10-04T17:46:08Z"
   },
   {
    "provider": "google",
    "source": "gemini-cli",
    "acct": "a_8ee5160a7070998a",
    "window": "plan",
-   "observedAt": "2026-10-04T17:15:16Z"
+   "observedAt": "2026-10-04T17:46:08Z"
   },
   {
    "provider": "openai",
@@ -67,7 +67,7 @@
    "plan": "Pro",
    "usedPercent": 25,
    "resetsAt": "2026-10-10T00:03:22Z",
-   "observedAt": "2026-10-04T17:15:11.1363795Z",
+   "observedAt": "2026-10-04T17:46:01.4231941Z",
    "status": "ok"
   },
   {
@@ -78,7 +78,7 @@
    "plan": "SuperGrok Heavy",
    "usedPercent": 0,
    "resetsAt": "2026-10-08T05:59:59.126253Z",
-   "observedAt": "2026-10-04T17:15:11.882Z",
+   "observedAt": "2026-10-04T17:46:03.574Z",
    "status": "ok"
   },
   {
@@ -87,7 +87,7 @@
    "acct": "a_9ca3779ad5b07e11",
    "window": "plan",
    "plan": "SuperGrok Heavy",
-   "observedAt": "2026-10-04T16:28:56.070732Z"
+   "observedAt": "2026-10-04T17:30:36.5047199Z"
   }
  ]
 }

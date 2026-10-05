@@ -8,7 +8,7 @@
    "acct": "a_31bd83ed29677a60",
    "window": "extra",
    "usedPercent": 0,
-   "observedAt": "2026-10-05T00:27:42.331Z",
+   "observedAt": "2026-10-05T00:33:43.254Z",
    "status": "disabled"
   },
   {
@@ -16,9 +16,9 @@
    "source": "claude-code",
    "acct": "a_31bd83ed29677a60",
    "window": "session",
-   "usedPercent": 10,
-   "resetsAt": "2026-10-05T05:20:00.175117Z",
-   "observedAt": "2026-10-05T00:27:42.331Z",
+   "usedPercent": 14,
+   "resetsAt": "2026-10-05T05:20:00.052196Z",
+   "observedAt": "2026-10-05T00:33:43.254Z",
    "status": "ok"
   },
   {
@@ -26,9 +26,9 @@
    "source": "claude-code",
    "acct": "a_31bd83ed29677a60",
    "window": "week",
-   "usedPercent": 85,
-   "resetsAt": "2026-10-06T07:00:00.175142Z",
-   "observedAt": "2026-10-05T00:27:42.331Z",
+   "usedPercent": 86,
+   "resetsAt": "2026-10-06T07:00:00.052222Z",
+   "observedAt": "2026-10-05T00:33:43.254Z",
    "status": "ok"
   },
   {
@@ -36,7 +36,7 @@
    "source": "cursor",
    "acct": "a_972ee473b5f858f1",
    "window": "plan",
-   "observedAt": "2026-10-05T00:29:29Z"
+   "observedAt": "2026-10-05T00:37:19Z"
   },
   {
    "provider": "openai",
@@ -46,7 +46,7 @@
    "plan": "Pro",
    "usedPercent": 25,
    "resetsAt": "2026-10-10T00:03:22Z",
-   "observedAt": "2026-10-05T00:27:40.972358Z",
+   "observedAt": "2026-10-05T00:33:41.884429Z",
    "status": "ok"
   },
   {
@@ -57,7 +57,7 @@
    "plan": "SuperGrok Heavy",
    "usedPercent": 0,
    "resetsAt": "2026-10-08T05:59:59.126253Z",
-   "observedAt": "2026-10-05T00:27:42.088Z",
+   "observedAt": "2026-10-05T00:33:43.025Z",
    "status": "ok"
   },
   {

@@ -3,8 +3,8 @@
  "id": "m_5b0846dc0e41",
  "label": "AC MBP 2",
  "os": "darwin",
- "collector": "0.4.1",
- "updatedAt": "2026-10-05T01:08:12Z",
+ "collector": "0.4.4",
+ "updatedAt": "2026-10-05T03:07:34Z",
  "firstSeenAt": "2025-12-04",
- "lastEventAt": "2026-10-05T00:58:00Z"
+ "lastEventAt": "2026-10-05T03:07:00Z"
 }

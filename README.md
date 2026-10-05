@@ -1,6 +1,6 @@
 # tokenmaxr usage dashboard
 
-**[Open the dashboard](https://7-of-9.github.io/tokenmaxr-usage/)**
+**[Open the dashboard](https://7-of-9.github.io/tokens/)**
 
 
 This repository holds AI token usage published by

@@ -3,9 +3,9 @@
  "id": "m_ba71b82303d5",
  "label": "RABBIT",
  "os": "windows",
- "collector": "0.4.3",
- "updatedAt": "2026-10-05T02:20:52Z",
+ "collector": "0.4.4",
+ "updatedAt": "2026-10-05T02:29:18Z",
  "cc": "TH",
  "firstSeenAt": "2025-05-10",
- "lastEventAt": "2026-10-05T02:12:00Z"
+ "lastEventAt": "2026-10-05T02:29:00Z"
 }

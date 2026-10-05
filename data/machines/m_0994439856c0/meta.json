@@ -1,0 +1,10 @@
+{
+ "schema": 2,
+ "id": "m_0994439856c0",
+ "label": "BEAST",
+ "os": "windows",
+ "collector": "0.4.3",
+ "updatedAt": "2026-10-05T01:09:06Z",
+ "firstSeenAt": "2026-07-18",
+ "lastEventAt": "2026-10-05T01:08:00Z"
+}

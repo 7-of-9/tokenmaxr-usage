@@ -1,0 +1,10 @@
+{
+ "schema": 2,
+ "id": "m_5b0846dc0e41",
+ "label": "AC MBP 2",
+ "os": "darwin",
+ "collector": "0.4.1",
+ "updatedAt": "2026-10-05T00:29:29Z",
+ "firstSeenAt": "2025-12-04",
+ "lastEventAt": "2026-10-05T00:28:00Z"
+}

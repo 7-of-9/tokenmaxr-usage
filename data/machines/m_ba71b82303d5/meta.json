@@ -3,8 +3,8 @@
  "id": "m_ba71b82303d5",
  "label": "RABBIT",
  "os": "windows",
- "collector": "0.4.10",
- "updatedAt": "2026-10-09T12:06:44Z",
+ "collector": "0.4.11",
+ "updatedAt": "2026-10-09T12:37:47Z",
  "cc": "TH",
  "firstSeenAt": "2025-05-10",
  "lastEventAt": "2026-10-09T10:57:00Z"
